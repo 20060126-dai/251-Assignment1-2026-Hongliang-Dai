@@ -65,11 +65,7 @@ window run the jar on a machine with a display (see "How to Run" above).
 ### Significant Commits
 
 - Hongliang Dai (25014387):
-  - `<commit-id-1>` - <short description>
-  - `<commit-id-2>` - <short description>
-
-*(The commit IDs above will be filled in from the actual git history of the
-repository.)*
+  - `056a0e3` - Initial commit: text editor with Maven build, tests and reports
 
 ## Features
 
