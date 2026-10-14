@@ -33,6 +33,7 @@ public class FileHelper {
     /**
      * Shows the open dialog, reads the chosen file and puts the content
      * into the editor. Supports .txt, source code files, .rtf and .odt.
+     * Plain text files are always read as UTF-8.
      */
     public static void openFile(EditorFrame frame) {
         JFileChooser chooser = new JFileChooser();
@@ -68,6 +69,7 @@ public class FileHelper {
 
     /**
      * Shows the save dialog and writes the editor content as a .txt file.
+     * Adds the .txt extension automatically if the user forgot to type it.
      */
     public static void saveFile(EditorFrame frame) {
         JFileChooser chooser = new JFileChooser();

@@ -23,6 +23,7 @@ import javax.swing.text.StyledDocument;
  */
 public class SyntaxHighlighter {
 
+    // highlighting is skipped for very large files so that typing stays smooth
     private static final int MAX_LINES = 3000;
 
     private static final Color KEYWORD_COLOR = new Color(0, 0, 180);

@@ -27,6 +27,7 @@ public class SearchDialog extends JDialog {
     private JTextField wordField;
     private JLabel resultLabel;
     private List<Integer> lastMatches;
+    // light yellow background used to mark search matches
     private static final Color HIGHLIGHT = new Color(255, 255, 150);
 
     public SearchDialog(EditorFrame owner) {

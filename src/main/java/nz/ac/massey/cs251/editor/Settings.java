@@ -24,6 +24,7 @@ public class Settings {
 
     /**
      * Reads editor.yaml from the current working directory.
+     * This is called once by the editor window when it starts up.
      * Values that are not present in the file keep their defaults.
      */
     @SuppressWarnings("unchecked")
