@@ -1,0 +1,47 @@
+# CI pipeline for the 159.251 text editor.
+# Runs the build and tests on every push and pull request to main,
+# then also runs the code quality checks and uploads the reports.
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Build and run tests
+      run: mvn -B clean verify
+
+    - name: Generate SpotBugs report
+      run: mvn -B spotbugs:spotbugs
+
+    - name: Generate PMD report
+      run: mvn -B pmd:pmd
+
+    - name: Upload SpotBugs report
+      uses: actions/upload-artifact@v4
+      with:
+        name: spotbugs-report
+        path: target/spotbugsXml.xml
+
+    - name: Upload PMD report
+      uses: actions/upload-artifact@v4
+      with:
+        name: pmd-report
+        path: target/pmd.html

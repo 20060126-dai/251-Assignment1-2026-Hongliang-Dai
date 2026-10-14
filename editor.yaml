@@ -1,0 +1,8 @@
+# Default settings for the 159.251 text editor.
+# The editor reads this file when it starts.
+editor:
+  font: "Consolas"
+  font_size: 14
+  font_color: "#000000"
+  background_color: "#FFFFFF"
+  wrap: true

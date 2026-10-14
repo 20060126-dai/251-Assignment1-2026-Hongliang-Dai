@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="7.0.0" timestamp="2026-10-14T13:52:24.289">
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\AboutDialog.java">
+<violation beginline="15" endline="15" begincolumn="35" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="AboutDialog" method="show" variable="owner" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'owner' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="16" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="AboutDialog" method="show" variable="message" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+</file>
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\EditorFrame.java">
+<violation beginline="39" endline="39" begincolumn="30" endcolumn="49" rule="LongVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" variable="highlighterListener" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like highlighterListener
+</violation>
+<violation beginline="43" endline="43" begincolumn="9" endcolumn="18" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="EditorFrame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+This method may call an overridable method during object construction: Container.add(Component, Object) (call stack: [EditorFrame.buildUI(), Container.add(Component, Object)])
+</violation>
+<violation beginline="45" endline="45" begincolumn="9" endcolumn="21" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="EditorFrame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+This method may call an overridable method during object construction: JFrame.setDefaultCloseOperation(int) (call stack: [EditorFrame.packWindow(), JFrame.setDefaultCloseOperation(int)])
+</violation>
+<violation beginline="60" endline="60" begincolumn="18" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="buildMenuBar" variable="bar" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bar' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="15" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="buildMenuBar" variable="fileMenu" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'fileMenu' could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="74" endline="74" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="80" endline="80" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="87" endline="87" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="93" endline="93" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="100" endline="100" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="107" endline="107" begincolumn="15" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="buildMenuBar" variable="editMenu" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'editMenu' could be declared final
+</violation>
+<violation beginline="112" endline="112" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="118" endline="118" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="124" endline="124" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="130" endline="130" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="137" endline="137" begincolumn="15" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="buildMenuBar" variable="searchMenu" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'searchMenu' could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="149" endline="149" begincolumn="15" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="buildMenuBar" variable="viewMenu" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'viewMenu' could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="161" endline="161" begincolumn="15" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="buildMenuBar" variable="helpMenu" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'helpMenu' could be declared final
+</violation>
+<violation beginline="166" endline="166" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="178" endline="178" begincolumn="39" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="makeItem" variable="title" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'title' is not assigned and could be declared final
+</violation>
+<violation beginline="178" endline="178" begincolumn="50" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="makeItem" variable="mnemonic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'mnemonic' is not assigned and could be declared final
+</violation>
+<violation beginline="178" endline="178" begincolumn="67" endcolumn="75" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="makeItem" variable="shortcut" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'shortcut' is not assigned and could be declared final
+</violation>
+<violation beginline="179" endline="179" begincolumn="47" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="makeItem" variable="action" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'action' is not assigned and could be declared final
+</violation>
+<violation beginline="180" endline="180" begincolumn="19" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="makeItem" variable="item" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'item' could be declared final
+</violation>
+<violation beginline="201" endline="201" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="applySettings" variable="s" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s
+</violation>
+<violation beginline="201" endline="201" begincolumn="18" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="applySettings" variable="s" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's' could be declared final
+</violation>
+<violation beginline="212" endline="212" begincolumn="26" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="insertDateTime" variable="format" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'format' could be declared final
+</violation>
+<violation beginline="214" endline="214" begincolumn="16" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="insertDateTime" variable="stamp" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stamp' could be declared final
+</violation>
+<violation beginline="226" endline="226" begincolumn="21" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="closeAllWindows" variable="w" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'w' could be declared final
+</violation>
+<violation beginline="229" endline="229" begincolumn="9" endcolumn="23" rule="DoNotTerminateVM" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="closeAllWindows" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#donotterminatevm" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="242" endline="242" begincolumn="38" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="setEditorText" variable="text" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'text' is not assigned and could be declared final
+</violation>
+<violation beginline="249" endline="249" begincolumn="37" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="setCurrentFile" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="261" endline="261" begincolumn="48" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="applySyntaxHighlighting" variable="fileName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'fileName' is not assigned and could be declared final
+</violation>
+<violation beginline="262" endline="262" begincolumn="16" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="applySyntaxHighlighting" variable="ext" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ext' could be declared final
+</violation>
+<violation beginline="282" endline="282" begincolumn="35" endcolumn="39" rule="NullAssignment" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="removeHighlighter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="286" endline="286" begincolumn="39" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="extensionOf" variable="fileName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'fileName' is not assigned and could be declared final
+</violation>
+<violation beginline="287" endline="287" begincolumn="13" endcolumn="16" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="extensionOf" variable="dot" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'dot' could be declared final
+</violation>
+<violation beginline="289" endline="289" begincolumn="13" endcolumn="23" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="extensionOf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="294" endline="294" begincolumn="33" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="moveCaretTo" variable="position" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+<violation beginline="295" endline="295" begincolumn="13" endcolumn="16" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="moveCaretTo" variable="pos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pos' could be declared final
+</violation>
+<violation beginline="308" endline="308" begincolumn="34" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="showError" variable="message" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="313" endline="313" begincolumn="33" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="EditorFrame" method="showInfo" variable="message" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\FileHelper.java">
+<violation beginline="37" endline="37" begincolumn="45" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="openFile" variable="frame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'frame' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="openFile" variable="chooser" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'chooser' could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="13" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="openFile" variable="result" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="14" endcolumn="18" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="openFile" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="20" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="openFile" variable="name" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'name' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="45" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="saveFile" variable="frame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'frame' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="saveFile" variable="chooser" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'chooser' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="13" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="saveFile" variable="result" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="46" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="saveAsPdf" variable="frame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'frame' is not assigned and could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="saveAsPdf" variable="chooser" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'chooser' could be declared final
+</violation>
+<violation beginline="99" endline="99" begincolumn="13" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="saveAsPdf" variable="result" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="42" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="print" variable="frame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'frame' is not assigned and could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="44" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="readTextFile" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="141" endline="141" begincolumn="43" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writeTextFile" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="141" endline="141" begincolumn="56" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writeTextFile" variable="text" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'text' is not assigned and could be declared final
+</violation>
+<violation beginline="148" endline="148" begincolumn="39" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="readOdt" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="158" endline="158" begincolumn="39" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="readRtf" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="159" endline="159" begincolumn="22" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="readRtf" variable="kit" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'kit' could be declared final
+</violation>
+<violation beginline="160" endline="160" begincolumn="18" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="readRtf" variable="doc" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'doc' could be declared final
+</violation>
+<violation beginline="161" endline="161" begincolumn="30" endcolumn="32" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="readRtf" variable="in" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like in
+</violation>
+<violation beginline="171" endline="171" begincolumn="48" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" variable="text" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'text' is not assigned and could be declared final
+</violation>
+<violation beginline="171" endline="171" begincolumn="61" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" variable="word" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'word' is not assigned and could be declared final
+</violation>
+<violation beginline="172" endline="172" begincolumn="23" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" variable="positions" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'positions' could be declared final
+</violation>
+<violation beginline="174" endline="174" begincolumn="13" endcolumn="30" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="176" endline="176" begincolumn="16" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" variable="lowerText" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'lowerText' could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="16" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" variable="lowerWord" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'lowerWord' could be declared final
+</violation>
+<violation beginline="180" endline="180" begincolumn="17" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="findAll" variable="pos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pos' could be declared final
+</violation>
+<violation beginline="190" endline="190" begincolumn="48" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="isSourceFile" variable="name" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="199" endline="199" begincolumn="40" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="exportPdf" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="199" endline="199" begincolumn="53" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="exportPdf" variable="text" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'text' is not assigned and could be declared final
+</violation>
+<violation beginline="201" endline="201" begincolumn="22" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="exportPdf" variable="lines" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'lines' could be declared final
+</violation>
+<violation beginline="203" endline="203" begincolumn="21" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="exportPdf" variable="end" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'end' could be declared final
+</violation>
+<violation beginline="213" endline="213" begincolumn="49" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writePdfPage" variable="pdf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pdf' is not assigned and could be declared final
+</violation>
+<violation beginline="213" endline="213" begincolumn="63" endcolumn="68" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writePdfPage" variable="lines" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'lines' is not assigned and could be declared final
+</violation>
+<violation beginline="213" endline="213" begincolumn="74" endcolumn="79" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writePdfPage" variable="start" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'start' is not assigned and could be declared final
+</violation>
+<violation beginline="213" endline="213" begincolumn="85" endcolumn="88" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writePdfPage" variable="end" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'end' is not assigned and could be declared final
+</violation>
+<violation beginline="215" endline="215" begincolumn="16" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="writePdfPage" variable="page" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'page' could be declared final
+</violation>
+<violation beginline="233" endline="233" begincolumn="47" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" variable="line" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'line' is not assigned and could be declared final
+</violation>
+<violation beginline="234" endline="234" begincolumn="23" endcolumn="25" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" variable="sb" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like sb
+</violation>
+<violation beginline="234" endline="234" begincolumn="23" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" variable="sb" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sb' could be declared final
+</violation>
+<violation beginline="236" endline="236" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" variable="c" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="236" endline="236" begincolumn="18" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" variable="c" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c' could be declared final
+</violation>
+<violation beginline="237" endline="237" begincolumn="22" endcolumn="26" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals in if statements
+</violation>
+<violation beginline="241" endline="241" begincolumn="28" endcolumn="31" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="FileHelper" method="cleanPdfText" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals in if statements
+</violation>
+</file>
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\Main.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="ShortClassName" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Main
+</violation>
+<violation beginline="10" endline="10" begincolumn="21" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Main" method="main" variable="frame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'frame' could be declared final
+</violation>
+</file>
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\SearchDialog.java">
+<violation beginline="32" endline="32" begincolumn="37" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="SearchDialog" variable="owner" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'owner' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="9" endcolumn="18" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="SearchDialog" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+This method may call an overridable method during object construction: JDialog.setLayout(LayoutManager) (call stack: [SearchDialog.buildUI(), JDialog.setLayout(LayoutManager)])
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="15" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="SearchDialog" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method called during object construction: Window.pack() 
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="37" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="SearchDialog" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method called during object construction: Window.setLocationRelativeTo(Component) 
+</violation>
+<violation beginline="44" endline="44" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="buildUI" variable="findButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'findButton' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="buildUI" variable="closeButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'closeButton' could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="actionPerformed" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="67" endline="67" begincolumn="16" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="buildUI" variable="top" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'top' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="16" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="find" variable="word" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'word' could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="13" endcolumn="20" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="find" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="89" endline="89" begincolumn="16" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="find" variable="text" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'text' could be declared final
+</violation>
+<violation beginline="103" endline="103" begincolumn="39" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="highlightMatches" variable="wordLength" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'wordLength' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="18" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="highlightMatches" variable="pos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pos' could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="32" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="highlightMatches" variable="style" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'style' could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="28" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="clearHighlight" variable="normal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'normal' could be declared final
+</violation>
+<violation beginline="121" endline="121" begincolumn="23" endcolumn="27" rule="NullAssignment" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SearchDialog" method="clearHighlight" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+</file>
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\Settings.java">
+<violation beginline="17" endline="17" begincolumn="8" endcolumn="13" rule="AtLeastOneConstructor" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="31" endline="31" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="s" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like s
+</violation>
+<violation beginline="31" endline="31" begincolumn="18" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="s" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 's' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="14" endcolumn="18" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="file" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="22" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="36" endline="36" begincolumn="26" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="in" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like in
+</violation>
+<violation beginline="37" endline="37" begincolumn="18" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="yaml" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'yaml' could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="33" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="root" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'root' could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="17" endcolumn="26" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="42" endline="42" begincolumn="20" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="editor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'editor' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="37" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="load" variable="map" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'map' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="13" endcolumn="19" rule="SystemPrintln" ruleset="Best Practices" package="nz.ac.massey.cs251.editor" class="Settings" method="load" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="71" endline="71" begincolumn="44" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="parseColor" variable="value" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="20" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="parseColor" variable="hex" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'hex' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="13" endcolumn="57" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="Settings" method="parseColor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="C:\Users\daiho\Desktop\massey\251-Assignment1-2026-Hongliang-Dai\src\main\java\nz\ac\massey\cs251\editor\SyntaxHighlighter.java">
+<violation beginline="37" endline="37" begincolumn="50" endcolumn="57" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="&lt;clinit&gt;" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "break" appears 4 times in this file; the first occurrence is on line 37
+</violation>
+<violation beginline="38" endline="38" begincolumn="43" endcolumn="53" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="&lt;clinit&gt;" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "continue" appears 4 times in this file; the first occurrence is on line 38
+</violation>
+<violation beginline="39" endline="39" begincolumn="17" endcolumn="23" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="&lt;clinit&gt;" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "else" appears 4 times in this file; the first occurrence is on line 39
+</violation>
+<violation beginline="39" endline="39" begincolumn="73" endcolumn="78" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="&lt;clinit&gt;" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "for" appears 4 times in this file; the first occurrence is on line 39
+</violation>
+<violation beginline="42" endline="42" begincolumn="40" endcolumn="48" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="&lt;clinit&gt;" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "return" appears 4 times in this file; the first occurrence is on line 42
+</violation>
+<violation beginline="44" endline="44" begincolumn="57" endcolumn="64" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="&lt;clinit&gt;" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "while" appears 4 times in this file; the first occurrence is on line 44
+</violation>
+<violation beginline="80" endline="80" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="createListener" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="84" endline="84" begincolumn="52" endcolumn="53" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="insertUpdate" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="89" endline="89" begincolumn="52" endcolumn="53" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="removeUpdate" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="94" endline="94" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" method="changedUpdate" variable="e" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="103" endline="103" begincolumn="41" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="colour" variable="pane" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pane' is not assigned and could be declared final
+</violation>
+<violation beginline="103" endline="103" begincolumn="54" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="colour" variable="ext" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ext' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="21" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="colour" variable="keywords" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'keywords' could be declared final
+</violation>
+<violation beginline="113" endline="113" begincolumn="40" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="clear" variable="pane" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pane' is not assigned and could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="24" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="clear" variable="doc" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'doc' could be declared final
+</violation>
+<violation beginline="115" endline="115" begincolumn="13" endcolumn="16" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="clear" variable="len" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'len' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="32" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="clear" variable="normal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'normal' could be declared final
+</violation>
+<violation beginline="122" endline="122" begincolumn="53" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="keywordSetFor" variable="ext" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ext' is not assigned and could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="45" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="pane" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pane' is not assigned and could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="63" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="keywords" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'keywords' is not assigned and could be declared final
+</violation>
+<violation beginline="143" endline="143" begincolumn="24" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="doc" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'doc' could be declared final
+</violation>
+<violation beginline="145" endline="145" begincolumn="13" endcolumn="20" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="147" endline="147" begincolumn="16" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="text" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'text' could be declared final
+</violation>
+<violation beginline="148" endline="148" begincolumn="13" endcolumn="16" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="len" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'len' could be declared final
+</violation>
+<violation beginline="153" endline="153" begincolumn="28" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="normal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'normal' could be declared final
+</violation>
+<violation beginline="156" endline="156" begincolumn="28" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="keyword" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'keyword' could be declared final
+</violation>
+<violation beginline="157" endline="157" begincolumn="28" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="comment" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'comment' could be declared final
+</violation>
+<violation beginline="158" endline="158" begincolumn="28" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="string" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'string' could be declared final
+</violation>
+<violation beginline="159" endline="159" begincolumn="28" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="number" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'number' could be declared final
+</violation>
+<violation beginline="161" endline="161" begincolumn="13" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="i" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="163" endline="163" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="c" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="163" endline="163" begincolumn="18" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="c" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c' could be declared final
+</violation>
+<violation beginline="175" endline="175" begincolumn="22" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals in if statements
+</violation>
+<violation beginline="200" endline="200" begincolumn="22" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="quote" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'quote' could be declared final
+</violation>
+<violation beginline="203" endline="203" begincolumn="45" endcolumn="49" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals in if statements
+</violation>
+<violation beginline="226" endline="226" begincolumn="24" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="highlight" variable="word" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'word' could be declared final
+</violation>
+<violation beginline="249" endline="249" begincolumn="55" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="makeStyle" variable="color" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'color' is not assigned and could be declared final
+</violation>
+<violation beginline="249" endline="249" begincolumn="76" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="makeStyle" variable="font" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'font' is not assigned and could be declared final
+</violation>
+<violation beginline="250" endline="250" begincolumn="28" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="makeStyle" variable="style" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'style' could be declared final
+</violation>
+<violation beginline="257" endline="257" begincolumn="45" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="getText" variable="pane" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pane' is not assigned and could be declared final
+</violation>
+<violation beginline="259" endline="259" begincolumn="13" endcolumn="82" rule="OnlyOneReturn" ruleset="Code Style" package="nz.ac.massey.cs251.editor" class="SyntaxHighlighter" method="getText" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+</pmd>
