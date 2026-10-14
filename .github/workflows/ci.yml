@@ -45,3 +45,17 @@ jobs:
       with:
         name: pmd-report
         path: target/pmd.html
+
+  # Verifies the Dockerfile builds and the project runs in the container
+  docker:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build the Docker image
+      run: docker build -t 251-text-editor .
+
+    - name: Run the container (compiles and runs the tests)
+      run: docker run --rm 251-text-editor
