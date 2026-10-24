@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- a simple book catalogue for the XML lab -->
+<bookstore>
+  <book id="bk1">
+    <title>Java: How to Program</title>
+    <author>Paul Deitel and Harvey Deitel</author>
+    <price>89.95</price>
+  </book>
+  <book id="bk2">
+    <title>Head First Java</title>
+    <author>Kathy Sierra and Bert Bates</author>
+    <price>44.99</price>
+  </book>
+  <book id="bk3">
+    <title>HTML and CSS: Design and Build Websites</title>
+    <author>Jon Duckett</author>
+    <price>34.95</price>
+  </book>
+  <book id="bk4">
+    <title>JavaScript: The Good Parts</title>
+    <author>Douglas Crockford</author>
+    <price>29.99</price>
+  </book>
+  <book id="bk5">
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <price>49.99</price>
+  </book>
+</bookstore>

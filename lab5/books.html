@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Book Catalogue</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; }
+    table { border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #999; padding: 6px 12px; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+  <h1>Book Catalogue</h1>
+  <p>The books below are loaded from book.xml:</p>
+  <div id="books"></div>
+
+  <script>
+    // fetch book.xml, parse it and show the books in a table
+    fetch('book.xml')
+      .then(function (response) {
+        if (!response.ok)
+          throw new Error('Fetch error: ' + response.status);
+        else
+          return response.text();
+      })
+      .then(function (xmlText) {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+        const books = xmlDoc.getElementsByTagName('book');
+
+        const table = document.createElement('table');
+        const head = table.insertRow();
+        head.innerHTML = '<th>ID</th><th>Title</th><th>Author</th><th>Price</th>';
+
+        for (let i = 0; i < books.length; i++) {
+          const book = books[i];
+          const row = table.insertRow();
+          const idCell = row.insertCell();
+          idCell.textContent = book.getAttribute('id');
+          const titleCell = row.insertCell();
+          titleCell.textContent = book.getElementsByTagName('title')[0].textContent;
+          const authorCell = row.insertCell();
+          authorCell.textContent = book.getElementsByTagName('author')[0].textContent;
+          const priceCell = row.insertCell();
+          priceCell.textContent = '$' + book.getElementsByTagName('price')[0].textContent;
+        }
+
+        document.getElementById('books').appendChild(table);
+      })
+      .catch(function (err) {
+        console.error('Fetch error: ' + err.message);
+      });
+  </script>
+</body>
+</html>

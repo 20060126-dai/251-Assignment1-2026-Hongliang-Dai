@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Profiles</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; }
+    table { border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #999; padding: 6px 12px; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+  <h1>User Profiles</h1>
+  <p>The profiles below are loaded from userProfiles.json:</p>
+  <div id="profiles"></div>
+
+  <script>
+    // fetch userProfiles.json and show every profile in a table
+    fetch('userProfiles.json')
+      .then(function (response) {
+        if (!response.ok)
+          throw new Error('Fetch error: ' + response.status);
+        else
+          return response.json();
+      })
+      .then(function (json) {
+        const table = document.createElement('table');
+        const head = table.insertRow();
+        head.innerHTML = '<th>Name</th><th>Email</th><th>Date of Birth</th><th>Address</th><th>Theme</th><th>Language</th><th>Notifications</th><th>Newsletter</th>';
+
+        json.forEach(function (user) {
+          const row = table.insertRow();
+          const name = row.insertCell();
+          name.textContent = user.firstName + ' ' + user.lastName;
+          const email = row.insertCell();
+          email.textContent = user.email;
+          const dob = row.insertCell();
+          dob.textContent = user.dateOfBirth;
+          const addr = row.insertCell();
+          addr.textContent = user.address.street + ', ' + user.address.city + ', ' + user.address.state + ' ' + user.address.zipCode;
+          const theme = row.insertCell();
+          theme.textContent = user.preferences.theme;
+          const lang = row.insertCell();
+          lang.textContent = user.preferences.language;
+          const notif = row.insertCell();
+          notif.textContent = user.preferences.notifications;
+          const sub = row.insertCell();
+          sub.textContent = user.preferences.subscription;
+        });
+
+        document.getElementById('profiles').appendChild(table);
+      })
+      .catch(function (err) {
+        console.error('Fetch error: ' + err.message);
+      });
+  </script>
+</body>
+</html>
